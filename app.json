@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "app_fitt",
+    "slug": "app_fitt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logos/fittsLogo.png",
+    "scheme": "appfitt",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/logos/fittsLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#12142A"
+    },
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#12142A",
+        "foregroundImage": "./assets/images/logos/fittsLogo.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#12142A",
+          "image": "./assets/images/logos/fittsLogo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
